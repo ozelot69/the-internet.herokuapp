@@ -1,0 +1,88 @@
+//input[@name='txtUsername']
+//input[@id='txtUsername']
+//input[@text='text']
+
+//a[text()='Pragmatic']
+//*[text()='Pragmatic']
+//a[.='Pragmatic']
+
+//a[contains(text(),'Labs')]
+//a[contains(.,'Labs')]
+//*[contains(.,'Labs')]
+
+//a[starts-with(.,'Pra')]
+//*[starts-with(text(),'Pragmatic')]
+
+//input[@name='Submit'][@class='button']
+//input[@type='submit][name='Submit'][@class='button'][id='bntLogin']
+//*[@name='Submit' and id='bntLogin']
+
+//a[contains(@href, 'labs')]
+//*[starts-with(@href, 'pragmatic')]
+
+locate parent: 
+
+//input[@name='txtUsername']/parent::*
+//input[@name='txtUsername']/parent::form
+input[@name='txtUsername']..
+
+locate a child element: 
+
+//div[@id='divUsername']/child::input
+//div[@id='divUsername']/child::*
+//div[@id='divUsername']/input 
+
+locate a grandchild: 
+
+//form[@id='frmLogin']/*/input
+//form[@id='frmLogin']/div/input
+
+locate ancestor: 
+
+//input[@name='txtUsername']/ancestor::form
+//input[@name='txtUsername']/ancestor::*
+
+locate descendants: 
+
+//form[@id='frmLoging']/descendant::input
+//form[@id='frmLoging']/descendant::*
+//form[@id='frmLoging']//input
+
+locate following elements: 
+
+//input[@name='txtUsername']/following::input
+//input[@name='txtUsername']/following::*
+//input[@name='txtUsername']/following::input[2] or
+//input[@name='txtUsername']/following::input[(last)]
+
+locate preceding elements:
+
+//span[text()='Password']/preceding::input
+//span[text()='Password']/preceding::*
+//span[text()='Password']/preceding::input[2] 
+
+
+locate following sibling element: 
+
+//input[@id='txtUsername']/followint-sibling::span
+//input[@id='txtUsername']/followint-sibling::*
+
+locate preseding sibling element: 
+
+//span[text()='Username']/preceding-sibling::input
+//span[text()='Username']/preceding-sibling::* 
+
+
+
+
+Newforma 
+
+
+
+
+
+
+
+
+
+

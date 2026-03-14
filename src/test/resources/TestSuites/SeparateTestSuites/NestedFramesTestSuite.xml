@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NestedFramesSuite" verbose="1">
+	
+	<test name="NestedFramesTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.nestedframespagetests.NestedFramesTests" />
+		</classes>
+	</test>
+	
+</suite>

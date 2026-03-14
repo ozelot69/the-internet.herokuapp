@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.246 s <<< FAILURE! - in TestSuite
+jsPromptTest(com.herokuapp.theinternet.alertspagetests.JavaScriptAlertsTests)  Time elapsed: 0.938 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Alert Message is not correct. 
+Should be 'I am a JS prompt', but it is 'I am a JS prompt[FAIL]' expected [true] but found [false],
+	Result is not expected. 
+Should be You entered: Hello Alert, it's Svetlana here, but it is 'You entered: Hello Alert, it's Svetlana here[FAIL]' expected [true] but found [false]
+	at com.herokuapp.theinternet.alertspagetests.JavaScriptAlertsTests.jsPromptTest(JavaScriptAlertsTests.java:161)
+
