@@ -140,14 +140,16 @@ public class JavaScriptAlertsTests extends TestUtilities {
 		javaScriptAlertsPage.openJSPrompt();
 		
 		//Get Alert text
-		String alertText = javaScriptAlertsPage.getAlertText() + "[FAIL]";
+		String alertText = javaScriptAlertsPage.getAlertText();
+		//String alertText = javaScriptAlertsPage.getAlertText() + "[FAIL]";
 		
 		//Type into prompt and click OK button 	
 		String text = "Hello Alert, it's Svetlana here"; 
 		javaScriptAlertsPage.typeIntoPromptAndAccept(text);
 				
-		//Get Result text 
-		String resultMessage = javaScriptAlertsPage.getResultText() + "[FAIL]"; 
+		//Get Result text
+		String resultMessage = javaScriptAlertsPage.getResultText();
+		//String resultMessage = javaScriptAlertsPage.getResultText() + "[FAIL]"; 
 	
 		//Verifications
 		

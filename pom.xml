@@ -95,7 +95,7 @@
 				<version>2.22.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/TestSuites/SmokeTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/TestSuites/SeparateTestSuites/PositiveLoginTestSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
